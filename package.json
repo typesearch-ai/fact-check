@@ -1,0 +1,41 @@
+{
+  "name": "typesearch-fact-check",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Paste a text: every checkable claim is searched in recent news and marked supported, contradicted or unverified, with quotes and links. Built with typesearch and the Vercel AI SDK.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --disable-warning=ExperimentalWarning 'test/**/*.test.ts'"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.63",
+    "@ai-sdk/openai": "^4.0.75",
+    "ai": "^7.0.114",
+    "next": "^16.3.5",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "typesearch-js": "file:../../packages/typesearch-js",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.3.5",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
