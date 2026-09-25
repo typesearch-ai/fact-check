@@ -130,7 +130,7 @@ function result(a: Article, now: number): Result & { country: string | null; lan
 
 export const PRICING: Usage['pricing'] = {
   currency: 'USD',
-  per_1000_requests: { ultra: 1.4, fast: 1.4, normal: 2.2, deep: 5.6, similar: 2.2, similar_deep: 4.6, site_search: 2.4 },
+  per_1000_requests: { ultra: 1, fast: 1.4, normal: 2.2, deep: 5.6, similar: 2.2, similar_deep: 4.6, site_search: 2.4 },
   per_1000_pages: { contents: 0.2, contents_with_query: 0.4 },
 };
 

@@ -5,7 +5,7 @@ recent coverage and marked **supported**, **contradicted** or **unverified**, wi
 decides it and a link to the article. An open-source demo of [typesearch](https://typesearch.ai), the
 news search API for AI agents, and the [Vercel AI SDK](https://ai-sdk.dev).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftypesearch%2Ffact-check&env=TYPESEARCH_API_KEY&envDescription=Your%20typesearch%20API%20key.%20The%20model%20runs%20on%20the%20Vercel%20AI%20Gateway%20with%20no%20extra%20key.&envLink=https%3A%2F%2Fapp.typesearch.ai&project-name=fact-check&repository-name=fact-check)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftypesearch-ai%2Ffact-check&env=TYPESEARCH_API_KEY&envDescription=Your%20typesearch%20API%20key.%20The%20model%20runs%20on%20the%20Vercel%20AI%20Gateway%20with%20no%20extra%20key.&envLink=https%3A%2F%2Fapp.typesearch.ai&project-name=fact-check&repository-name=fact-check)
 
 ![Pasting a text with six claims: each one is highlighted in the text and gets a verdict with the quotes from the articles](docs/demo.gif)
 

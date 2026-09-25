@@ -17,7 +17,8 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
+      # typesearch-js: from npm once it is there; until then, its public repository built next to this one.
+      - run: bash .github/scripts/install.sh
       - run: npm run lint
       - run: npm run typecheck
       - run: npm test
