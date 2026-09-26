@@ -154,7 +154,7 @@ export function sampleSearch(query: string, mode: SearchResponse['mode'], now = 
     reference: null,
     temporal: null,
     site: null,
-    index: { sources: 4, articles: 1200, updated_at: at(now, 0.05) },
+    index: null,
     usage: {
       tokens: 2100,
       calls: 3,
